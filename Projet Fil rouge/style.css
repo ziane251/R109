@@ -2,36 +2,107 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #041821;
 }
 
 header {
-    background: #EE6C4D;
+    background: #041821;
     display: flex;
     justify-content: space-between;
     align-items:center;
+    border-bottom: 1px solid #ffffff;
+    padding: 20px;
 
 }
 
-h1 {
-    color: #E0FBFC;
+.point{
+    color: #1FD29D;
+}
+
+h1.titre-header {
+    font-family: "Yeseva One", serif;
+    font-weight: 100;
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 20px;
 }
 
 span{
-    color: #EE6C4D;
+    color: #ffffff;
 }
 
 nav {
-    background-color: #E0FBFC;
-    width: 20%;
-    padding: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 150px;
+  
 }
 
 nav span {
-    margin: 0 15px;
+    font-size: 20px;
 
 }
 
+main{
+    margin: 0 130px 0 130px;
+
+}
+
+.Titre-page{
+    color: #ffffff;
+    font-family: "Yeseva One", serif;
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.titre-vert{
+    color: #1FD29D;
+
+}
+
+.paragaphe{
+    color: #525D5D;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.navigation-photo{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+ul.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+   
+
+}
+
+li{
+    margin: 20px;
+    padding: 10px;
+
+}
+
+li:hover{
+    background-color: #1FD29D;
+}
+
+div.grille-photo{
+}
+
+/*
 main{
     display: flex;
     justify-content: center;
@@ -47,7 +118,9 @@ section {
     border: 2px solid ;
     border-radius: 12px;
 }
+/*
 
+/*
 @media screen and (max-width: 768px){
     header {
         flex-direction: column;
@@ -67,3 +140,4 @@ section {
     }
     
 }
+/*
